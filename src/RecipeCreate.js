@@ -35,22 +35,22 @@ const handleChange = ({target}) =>{
               </td>
               <td>
                 <label htmlFor="cuisine">
-              <input id="cuisine" name="cuisine" onChange={handleChange} value={formData.cuis} placeholder="cuisine"/>
+              <input id="cuisine" name="cuisine" onChange={handleChange} value={formData.cuisine} placeholder="cuisine"/>
               </label>
               </td>
               <td>
                 <label htmlFor="photo">
-              <input id="photo" name="photo" type="url" onChange={handleChange} value={formData.URL} placeholder="url"/>
+              <input id="photo" name="photo" type="url" onChange={handleChange} value={formData.photo} placeholder="url"/>
               </label>
               </td>
               <td>
                 <label htmlFor="ingredients">
-              <textarea id="ingredients" name="ingredients" onChange={handleChange} value={formData.ingred} placeholder="ingredients"/>
+              <textarea id="ingredients" name="ingredients" onChange={handleChange} value={formData.ingredients} placeholder="ingredients"/>
               </label>
               </td>
               <td>
                 <label htmlFor="preparation">
-              <textarea id="preparation" name="preparation" onChange={handleChange} value={formData.prep} placeholder="preperation"/>
+              <textarea id="preparation" name="preparation" onChange={handleChange} value={formData.preparation} placeholder="preperation"/>
               </label>
               </td>
               
