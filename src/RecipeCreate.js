@@ -30,27 +30,27 @@ const handleChange = ({target}) =>{
           <tr>
             <td style={{}}>
               <label htmlFor="name">
-              <input id="name" name="name" onChange={handleChange} value={formData.name} placeholder="name"/>
+              <input id="name" name="name" onChange={handleChange} value={formData.name} required={true} placeholder="name"/>
               </label>
               </td>
               <td>
                 <label htmlFor="cuisine">
-              <input id="cuisine" name="cuisine" onChange={handleChange} value={formData.cuisine} placeholder="cuisine"/>
+              <input id="cuisine" name="cuisine" onChange={handleChange} value={formData.cuisine} required={true} placeholder="cuisine"/>
               </label>
               </td>
               <td>
                 <label htmlFor="photo">
-              <input id="photo" name="photo" type="url" onChange={handleChange} value={formData.photo} placeholder="url"/>
+              <input id="photo" name="photo" type="url" onChange={handleChange} value={formData.photo} required={true} placeholder="url"/>
               </label>
               </td>
               <td>
                 <label htmlFor="ingredients">
-              <textarea id="ingredients" name="ingredients" onChange={handleChange} value={formData.ingredients} placeholder="ingredients"/>
+              <textarea id="ingredients" name="ingredients" onChange={handleChange} value={formData.ingredients} required={true} placeholder="ingredients"/>
               </label>
               </td>
               <td>
                 <label htmlFor="preparation">
-              <textarea id="preparation" name="preparation" onChange={handleChange} value={formData.preparation} placeholder="preperation"/>
+              <textarea id="preparation" name="preparation" onChange={handleChange} value={formData.preparation} required={true} placeholder="preperation"/>
               </label>
               </td>
               
